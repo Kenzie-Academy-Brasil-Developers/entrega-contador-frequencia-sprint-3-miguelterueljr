@@ -1,0 +1,40 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: #800000;
+}
+h1 {
+    text-align: center;
+}
+
+#textInput {
+    width: 300px;
+    height: 150px;
+    margin-left: 37%;
+    
+}
+
+#lettersDiv span {    /* Onde vai o numero de letras contadas*/
+    color: gray
+
+}
+
+#wordsDiv p {            /*repete as palavras inseridas */
+    color: gold;
+    line-break:anywhere;
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: lightyellow;
+    margin-left: 43%;
+    margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+    body {
+        background-color: black;
+        color: blue;
+    }
+}
